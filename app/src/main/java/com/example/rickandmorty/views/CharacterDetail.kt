@@ -1,4 +1,4 @@
-package com.example.rickandmorty
+package com.example.rickandmorty.views
 
 import android.os.Bundle
 import android.widget.ImageView

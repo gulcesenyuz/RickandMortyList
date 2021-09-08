@@ -1,4 +1,4 @@
-package com.example.rickandmorty
+package com.example.rickandmorty.constants
 
 interface OnItemClickListener {
     fun onItemClick(

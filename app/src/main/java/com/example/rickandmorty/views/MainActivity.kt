@@ -1,19 +1,20 @@
-package com.android.rickandmortyapp
+package com.example.rickandmorty.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
-import com.example.rickandmorty.CharacterDetail
-import com.example.rickandmorty.OnItemClickListener
+import com.android.rickandmortyapp.R
+import com.example.rickandmorty.services.RmCharacterAdapter
+import com.example.rickandmorty.constants.OnItemClickListener
 import com.example.rickandmorty.models.CharacterResponse
 import com.example.rickandmorty.services.RickAndMortyServiceProvider
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
- class MainActivity : AppCompatActivity(),OnItemClickListener {
+ class MainActivity : AppCompatActivity(), OnItemClickListener {
 
      override fun onItemClick(
          position: Int,

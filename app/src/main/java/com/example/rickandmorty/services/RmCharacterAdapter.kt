@@ -1,4 +1,4 @@
-package com.android.rickandmortyapp
+package com.example.rickandmorty.services
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.android.rickandmortyapp.R
 import com.bumptech.glide.Glide
-import com.example.rickandmorty.OnItemClickListener
+import com.example.rickandmorty.constants.OnItemClickListener
 import com.example.rickandmorty.models.RmCharacter
 
 class RmCharacterAdapter(
