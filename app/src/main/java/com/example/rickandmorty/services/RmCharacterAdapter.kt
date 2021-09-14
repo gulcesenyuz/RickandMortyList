@@ -43,16 +43,12 @@ class RmCharacterAdapter(
         }
 
         override fun onClick(v: View?) {
-            val position: Int =adapterPosition
-            val gender: String? = rmList[position].gender
-            val species: String? =  rmList[position].species
-            val status: String? =  rmList[position].status
-            val image:String?=  rmList[position].image
-            val name:String?= rmList[position].name
-            if(position != RecyclerView.NO_POSITION){
-                listener.onItemClick(position,gender,species,status,image,name
-                )
-            }
+            val id: String =rmList[adapterPosition].id.toString()
+
+                listener.onItemClick(id)
+
+
+
 
         }
     }

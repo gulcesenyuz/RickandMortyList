@@ -72,4 +72,5 @@
         app:layout_constraintEnd_toEndOf="@+id/species_textView"
         app:layout_constraintStart_toStartOf="@+id/species_textView"
         app:layout_constraintTop_toBottomOf="@+id/species_textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

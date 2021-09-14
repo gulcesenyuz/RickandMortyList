@@ -20,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.rickandmorty.views.CharacterDetail"/>
+        <activity android:name="com.example.rickandmorty.views.CharacterDetailActivity"/>
     </application>
 
 </manifest>
